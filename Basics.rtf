@@ -7,24 +7,51 @@
 {\s17\sbasedon16\snext17\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\sl276\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052 List;}
 {\s18\sbasedon0\snext18\rtlch\af8\afs24\alang1081\ai \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\sb120\sa120\ltrpar\cf0\f3\fs24\lang16393\i\kerning1\dbch\af6\langfe2052 Caption;}
 {\s19\sbasedon0\snext19\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052 Index;}
-}{\*\generator LibreOffice/7.1.0.3$Windows_X86_64 LibreOffice_project/f6099ecf3d29644b5008cc8f48f42f4a40986e4c}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2021\mo10\dy1\hr13\min53}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab720
+}{\*\generator LibreOffice/7.1.0.3$Windows_X86_64 LibreOffice_project/f6099ecf3d29644b5008cc8f48f42f4a40986e4c}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2021\mo10\dy3\hr22\min29}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab720
 \hyphauto1\viewscale90
 {\*\pgdsctbl
 {\pgdsc0\pgdscuse451\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Default Page Style;}}
 \formshade\paperh16838\paperw11906\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\pgndec\sftnnar\saftnnrlc\sectunlocked1\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
 {\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\ab \ltrch\loch\fs40\b\loch
-Dependency Injection}
+Servlets}
 \par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\afs24\ab0 \ltrch\loch\fs24\b0\loch
 1.}{\rtlch\afs24\ab \ltrch\loch\fs24\b\loch
- }{\rtlch\afs24\ab0 \ltrch\loch\fs24\b0\loch
-Suppose your }{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
-supermarket }{\rtlch\afs24\ab0 \ltrch\loch\fs24\b0\loch
-class requires an object dependency of cart object, going by traditional ways you declare private Cart cart in supermarket class and in supermarket\u8217\'92s constructor initialiaze cart object.}
-\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\afs24\ab0 \ltrch\loch\fs24\b0\loch
+ }{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+Http request from browser is routed to an entity called as }{\rtlch\af8\afs24\alang1081\ab \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b\kerning1\dbch\af6\langfe2052\loch
+web container}{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+.}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+2. Inside of this web container are 1 or more servlets (normal java object that is programmed to handle http requests) that handle and process http request sent to it.}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+3. doGet, doPost, doPut, doDelete are crucial methods of servlets.}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+4. so if a request regarding a resource X is made, }{\rtlch\af8\afs24\alang1081\ab \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b\kerning1\dbch\af6\langfe2052\loch
+appropriate servlet }{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+is picked from container and then request is routed to servlet\u8217\'92s doGet method and this method }{\rtlch\af8\afs24\alang1081\ab \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b\kerning1\dbch\af6\langfe2052\loch
+gets access to headers, request body}{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+.}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+5. How to decide which servlet to delegate the request to ? web.xml in web container }{\rtlch\af8\afs24\alang1081\ab \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b\kerning1\dbch\af6\langfe2052\loch
+maps routes to servlets.}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+6. Each }{\rtlch\af8\afs24\alang1081\ab \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b\kerning1\dbch\af6\langfe2052\loch
+servlet has to inherit HttpServlet }{\rtlch\af8\afs24\alang1081\ab0 \ltrch\lang16393\langfe2052\loch\cf0\fs24\lang16393\b0\kerning1\dbch\af6\langfe2052\loch
+and override methods mentioned above(business logic).}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\ab \ltrch\loch\fs40\b\loch
+Dependency Injection}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\ab0 \ltrch\loch\b0\loch
+1.}{\rtlch\ab \ltrch\loch\b\loch
+ }{\rtlch\ab0 \ltrch\loch\b0\loch
+Suppose your supermarket class requires an object dependency of cart object, going by traditional ways you declare private Cart cart in supermarket class and in supermarket\u8217\'92s constructor initialiaze cart object.}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\ab0 \ltrch\loch\b0\loch
 2. Dependency injection in simple terms is NOT using new keyboard manually, instead spring will initialize your dependencies (inject dependency) and manage those (inversion of control) using IOC container.}
-\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\afs24\ab0 \ltrch\loch\fs24\b0\loch
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\ab0 \ltrch\loch\b0\loch
 3. This results into high loose coupling (suppose in future there is some change in cart class you are not required to make changes in supermarket class, spring will look into it).}
-\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\afs24\ab0 \ltrch\loch\fs24\b0\loch
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\ab0 \ltrch\loch\b0\loch
 4. You are required to use annotations or xml configuration to let spring know these dependencies are to be passed what initial values.}
 \par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang16393\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang16393\kerning1\dbch\af6\langfe2052{\rtlch\ab \ltrch\loch\fs40\b\loch
 Spring MVC framework}
